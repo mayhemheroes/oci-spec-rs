@@ -1,0 +1,6 @@
+project: oci-spec-rs
+target: oci-spec-fuzz
+
+cmds:
+    - cmd: ./oci-spec-fuzz
+      libfuzzer: true
